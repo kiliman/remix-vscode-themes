@@ -1,0 +1,42 @@
+{
+  "name": "remix-vscode-theme",
+  "displayName": "remix-vscode-theme",
+  "description": "Color themes used on Remix Run website and docs",
+  "publisher": "kiliman-dev",
+  "license": "MIT",
+  "author": {
+    "name": "Kiliman",
+    "email": "kiliman@gmail.com",
+    "url": "https://kiliman.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiliman/remix-vscode-themes.git"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Remix Run Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/base16-remix-run-dark.json"
+      },
+      {
+        "label": "Remix Docs Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/base16-remix-docs-dark.json"
+      },
+      {
+        "label": "Remix Docs Light",
+        "uiTheme": "vs",
+        "path": "./themes/base16-remix-docs-light.json"
+      }
+    ]
+  }
+}
